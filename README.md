@@ -34,6 +34,12 @@ You need to change the input path and output path here after first instruction, 
     bash scripts/infer.sh
     python src/submit.py
 
+The path to the Track1-WithoutAPI experiment results is at `. /outputs/codellama_7b/TAL-SCQ-CN_mix_ep1/TAL-CN/submit.jsonl`
+
+## 😍 Future
+
+If more GPU resources become available, we will release our 13B model as well as the 34B model!
+
 ## 😇 Acknowledgements
 
 - [ToRA](https://github.com/microsoft/ToRA?tab=readme-ov-file)
