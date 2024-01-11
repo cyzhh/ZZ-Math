@@ -1,4 +1,4 @@
-# MMOS
+# MATH-PROBLEM-SOLVING---TRACK1
 
 ## 🔥 News
 
@@ -8,7 +8,7 @@
 
     git clone https://github.com/cyzhh/MATH-PROBLEM-SOLVING---TRACK1.git
     cd MATH-PROBLEM-SOLVING---TRACK1
-    conda create -n MMOS python=3.10
+    conda create -n MATH python=3.10
     pip install packaging==22.0
     conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
     pip install -r requirements.txt
@@ -27,7 +27,7 @@ Due to resource constraints, we performed supervised fine-tuning on [CodeLLaMA 7
     bash scripts/train_single.sh codellama 7b
     
 ## 💻 Inference
-If you want to use our trained model directly to verify the authenticity of the results, then you can do so by downloading [the trained model](https://www.wolai.com/tC892NbsDTG1NEwnmkz53B) and placing the model in the relative path, `./train_outputs/codellama_7b/`.
+If you want to use our trained model directly to verify the authenticity of the results, then you can do so by downloading [the trained model](https://huggingface.co/cyzhh/zuiii-Track1-Without_API) and placing the model in the relative path, `./train_outputs/codellama_7b/`.
 
 You need to change the input path and output path here after first instruction, the general input relative path is `./outputs/codellama_7b/TAL-SCQ-CN_mix_ep1/TAL-CN/` folder under the path of the jsonl file.
 
