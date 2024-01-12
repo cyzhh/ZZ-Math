@@ -2,7 +2,7 @@
 
 ## 🔥 News
 
-- [2024/1/12] Models ZZ-Math 7B released at [Google Drive](https://drive.google.com/drive/folders/13tpLR0bNLLg1oLkjUuwJT8STCB10uSSS?usp=sharing) or [Quark](https://pan.quark.cn/s/f27312fcc92a)
+- [2024/1/12] Models ZZ-Math 7B released at [Google Drive](https://drive.google.com/drive/folders/13tpLR0bNLLg1oLkjUuwJT8STCB10uSSS?usp=sharing) or [Quark](https://pan.quark.cn/s/0b69ec84c793) 
 - [2024/1/11] Dataset released at [😊 HuggingFace](https://huggingface.co/datasets/cyzhh/TAL-SCQ-CN_mix)
 
 ## 💾 Install
@@ -29,7 +29,7 @@ Due to resource constraints, we performed supervised fine-tuning on [CodeLLaMA 7
     bash scripts/train_single.sh codellama 7b
     
 ## 💻 Inference
-If you want to use our trained model directly to verify the authenticity of the results, then you can do so by downloading [Google Drive](https://drive.google.com/drive/folders/13tpLR0bNLLg1oLkjUuwJT8STCB10uSSS?usp=sharing)/[Quark](https://pan.quark.cn/s/f27312fcc92a) and placing the model in the relative path, `./train_outputs/codellama_7b/`.
+If you want to use our trained model directly to verify the authenticity of the results, then you can do so by downloading [Google Drive](https://drive.google.com/drive/folders/13tpLR0bNLLg1oLkjUuwJT8STCB10uSSS?usp=sharing)/[Quark](https://pan.quark.cn/s/0b69ec84c793) and placing the model in the relative path, `./train_outputs/codellama_7b/`.
 
 You need to change the input path and output path here after first instruction, the general input relative path is `./outputs/codellama_7b/TAL-SCQ-CN_mix_ep1/TAL-CN/` folder under the path of the jsonl file.
 
