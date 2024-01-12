@@ -17,7 +17,7 @@
 
 ## 📚 Dataset
 
-We use ToRA series to generate QA-pairs from open source dataset GSM8K, MATH, TAL-SCQ. The QA-pairs are processed by our algorithm, resulting in the dataset `TAL-SCQ-CN_mix`.
+We use [ToRA](https://github.com/microsoft/ToRA?tab=readme-ov-file) series to generate QA-pairs from open source dataset GSM8K, MATH, TAL-SCQ. The QA-pairs are processed by our algorithm, resulting in the dataset `TAL-SCQ-CN_mix`.
 
 The DATA, which we publish at [😊 HuggingFace](https://huggingface.co/datasets/cyzhh/TAL-SCQ-CN_mix), need to be placed under the relative path, `./train_data/TAL-SCQ-CN_mix/`.
 
