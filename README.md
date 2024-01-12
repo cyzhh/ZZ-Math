@@ -1,21 +1,23 @@
-# MATH-PROBLEM-SOLVING---TRACK1
+# ZZ-Math
 
 ## 🔥 News
 
+- [2024/1/12] Models ZZ-Math 7B released at [Google Drive](https://drive.google.com/drive/folders/13tpLR0bNLLg1oLkjUuwJT8STCB10uSSS?usp=sharing)
 - [2024/1/11] Dataset released at [😊 HuggingFace](https://huggingface.co/datasets/cyzhh/TAL-SCQ-CN_mix)
 
 ## 💾 Install
 
-    git clone https://github.com/cyzhh/MATH-PROBLEM-SOLVING---TRACK1.git
-    cd MATH-PROBLEM-SOLVING---TRACK1
-    conda create -n MATH python=3.10
+    git clone https://github.com/cyzhh/ZZ-Math.git
+    cd ZZ-Math
+    conda create -n ZZ_Math python=3.10
+    conda activate ZZ-Math
     pip install packaging==22.0
     conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
     pip install -r requirements.txt
 
 ## 📚 Dataset
 
-Our dataset is inference GSM8K, MATH, TAL-SCQ by the open source big model ToRA series and processed by the algorithm to finally get the dataset TAL-SCQ-CN_mix.
+We use ToRA series to generate QA-pairs from open source dataset GSM8K, MATH, TAL-SCQ. The QA-pairs are processed by our algorithm, resulting in the dataset `TAL-SCQ-CN_mix`.
 
 The DATA, which we publish at [😊 HuggingFace](https://huggingface.co/datasets/cyzhh/TAL-SCQ-CN_mix), need to be placed under the relative path, `./train_data/TAL-SCQ-CN_mix/`.
 
@@ -27,7 +29,7 @@ Due to resource constraints, we performed supervised fine-tuning on [CodeLLaMA 7
     bash scripts/train_single.sh codellama 7b
     
 ## 💻 Inference
-If you want to use our trained model directly to verify the authenticity of the results, then you can do so by downloading [the trained model](https://huggingface.co/cyzhh/zuiii-Track1-Without_API) and placing the model in the relative path, `./train_outputs/codellama_7b/`.
+If you want to use our trained model directly to verify the authenticity of the results, then you can do so by downloading [Google Drive](https://drive.google.com/drive/folders/13tpLR0bNLLg1oLkjUuwJT8STCB10uSSS?usp=sharing) and placing the model in the relative path, `./train_outputs/codellama_7b/`.
 
 You need to change the input path and output path here after first instruction, the general input relative path is `./outputs/codellama_7b/TAL-SCQ-CN_mix_ep1/TAL-CN/` folder under the path of the jsonl file.
 
