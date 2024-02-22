@@ -1,4 +1,4 @@
-# ZZ-Math
+# MMOS
 
 ## 🔥 News
 
