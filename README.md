@@ -1,7 +1,7 @@
 # ZZ-Math
 
 ## 🔥 News
-
+- [2024/1/24] AAAI2024 Global Competition on Math Problem Solving and Reasoning without API on Track 1 **2nd Price**.
 - [2024/1/12] Models ZZ-Math 7B released at [Google Drive](https://drive.google.com/drive/folders/13tpLR0bNLLg1oLkjUuwJT8STCB10uSSS?usp=sharing) or [Quark](https://pan.quark.cn/s/0b69ec84c793) 
 - [2024/1/11] Dataset released at [😊 HuggingFace](https://huggingface.co/datasets/cyzhh/TAL-SCQ-CN_mix)
 
