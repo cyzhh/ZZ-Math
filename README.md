@@ -46,7 +46,7 @@ If more GPU resources become available, we will release our 13B model as well as
 
 - [ToRA](https://github.com/microsoft/ToRA?tab=readme-ov-file)
 
-## Star History
+## 🌟 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=cyzhh/ZZ-Math&type=Date)](https://star-history.com/#cyzhh/ZZ-Math&Date)
 
